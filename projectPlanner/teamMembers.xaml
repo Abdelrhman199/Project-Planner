@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectPlanner"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf" x:Class="projectPlanner.teamMembers"
+        mc:Ignorable="d"
+        Title="teamMembers" Height="450" Width="800">
+    <Grid Margin="-3,33,42,-3">
+        <Button Content="Add member" HorizontalAlignment="Left" Height="33" Margin="81,323,0,0" VerticalAlignment="Top" Width="163" Click="Button_Click"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="34" Margin="331,322,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_1"/>
+        <TextBox x:Name="hoursPerDay" HorizontalAlignment="Left" Height="28" Margin="118,229,0,0" TextWrapping="NoWrap"  VerticalAlignment="Top" Width="111"/>
+        <TextBox x:Name="title"  HorizontalAlignment="Left" Height="29" Margin="119,185,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="111"/>
+        <Label Content="Title" HorizontalAlignment="Left" Height="29" Margin="40,189,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label Content="hrs/day" HorizontalAlignment="Left" Height="26" Margin="33,233,0,0" VerticalAlignment="Top" Width="49"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="projectPlanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectPlanner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="339*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="165,149,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click" Grid.Row="1"/>
+        <Button Content="Log in" HorizontalAlignment="Left" Margin="165,87,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click_2" Grid.Row="1"/>
+        <TextBox Name="username" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="165,43,0,0"/>
+        <PasswordBox Name="password" HorizontalAlignment="Left" Height="23" Margin="165,14,0,0"  VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="35" Margin="79,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.671,0.486"/>
+        <Label Content="Username" HorizontalAlignment="Left" Height="25" Margin="78,42,0,0" VerticalAlignment="Top" Width="62"/>
+    </Grid>
+</Window>
